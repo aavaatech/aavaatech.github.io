@@ -1,12 +1,12 @@
 var i=0;
-var imagefile=['cover1.png','cover2.jpg','cover6.jpg','cover5.jpg','cover4.jpg'];
+var imagefile=['cover1.png','cover2.jpg','cover6.jpg','cover5.jpg','cover4.jpg', 'cover3.jpg'];
 setInterval(startSlider,2000);
 
 function startSlider()
 {
 		document.getElementById("slide1").src="images/"+ imagefile[i];
 	i++;
-	if(i>3)
+	if(i>5)
 	{
 		i=0;
 	}
